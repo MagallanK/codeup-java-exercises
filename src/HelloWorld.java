@@ -68,6 +68,13 @@ public class HelloWorld {
 
         //Exercise # 14 Question brought over - What happens if you assign a value to a numerical variable that is larger (or smaller) than the type can hold? What happens if you increment a numeric variable past the type's capacity?
 
+//        int number = 2147483700;
+        // integer number too large
+        int number = Integer.MAX_VALUE + 1;
+        //-2147483648. adding the + 1 to the end starts from the beginning of the int locale and adds 1 to that number.
+        System.out.println(number);
+
+
         //Exercise # 14 my answer/take for 1st question - If you assign a value to a numerical variable that is larger (or smaller) than the type it can hold, you will get errors in your program when it runs stating that the value is not compatible, and intelliJ will give a suggestion to use a certain type of identifier/type.
         //Exercise # 14 my answer/take for 2nd question - If you increment a numeric value past the type's capacity you would get an error when running the program because it will again exceed the limit of that current identifier/type that you may want to use, and you might have to use a different data type.
     }
