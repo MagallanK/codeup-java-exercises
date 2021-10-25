@@ -9,7 +9,8 @@ public class ConsoleIO {
 //        String name = "Magallan";
 //        System.out.printf("Hello there, %s. Nice to see you. \n", name);
 //
-//
+//      printf() is like string templates in es6 and allows for less concatenation.
+
 //        String greeting = "Howdy";
 //        String cohortName= "Quasar";
 //        System.out.printf("%s, %s", greeting, cohortName);
