@@ -37,6 +37,16 @@ public class ControlFlowExercises {
 //        } while (i < 1000000);
 
 
+//        Refactor the previous two exercises to use a for loop instead.
+
+//        for(int i = 100; i >= -10; i -= 5){
+//            System.out.println(i);
+//        }
+//
+//        for(long i = 2; i <= 1000000; i *= i){
+//            System.out.println(i);
+//        }
+
 //   2.     Fizzbuzz
 
 //        int i = 1;
