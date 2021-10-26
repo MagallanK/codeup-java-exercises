@@ -75,7 +75,8 @@ public class ControlFlowExercises {
             System.out.println("number  |  squared  |  cubed");
             System.out.println("------  |  -------  |  -----");
             for(int i = 1; i <= userNumber; i++){
-                System.out.println(i + "       |  " + i * i + "        |  " + i * i * i + "        ");
+//                System.out.println(i + "       |  " + i * i + "        |  " + i * i * i + "        ");
+                System.out.printf("%-7d| %-9d| %-6d \n", i, i * i, i * i * i);
             }
             System.out.println("Here is your table!");
             System.out.println("Do you want to continue? [y/n]");
