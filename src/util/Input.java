@@ -28,16 +28,16 @@ public class Input {
         return this.scanner.nextInt();
     }
 
-    double getDouble(double min, double max){
-        Double userDouble;
+    public double getDouble(double min, double max){
+        double userDouble;
         do{
             System.out.printf("Please enter a decimal number between %f and %f: \n", min, max);
             userDouble = this.scanner.nextDouble();
-        }while(userDouble > min || userDouble < max);
+        }while(userDouble > max || userDouble < min);
         return userDouble;
     }
 
-    double getDouble(){
+    public double getDouble(){
         return this.scanner.nextDouble();
     }
 

@@ -51,16 +51,7 @@ public class Person {
 //        System.out.println(person1.getName()); //Returns Jane since person2 was set to "Jane" and person2 is person1.
 //        System.out.println(person2.getName()); //Returns Jane since person2 was set to "Jane" and person2 is person1.
 
-        Input input = new Input();
 
-        System.out.println("Enter a string: ");
-        String blank = input.getString();
-        System.out.println("Your string was: " + blank);
-
-
-        System.out.println("Boolean test message: ");
-        boolean boolTest = input.yesNo();
-        System.out.println("The boolean result is: " + boolTest);
 
 
     }
