@@ -14,32 +14,32 @@ public class ArrayExercises {
 
 //        Create an array that holds 3 Person objects. Assign a new instance of the Person class to each element. Iterate through the array and print out the name of each person in the array.
 
-        String[] Person;
-        Person = new String[3];
-        Person[0] = new String("Mag");
-        Person[1] = new String("Kap");
-        Person[2] = new String("Jon");
+        Person[] people;
+        people = new Person[3];
+        people[0] = new Person("Mag");
+        people[1] = new Person("Kap");
+        people[2] = new Person("Jon");
 
-        System.out.println("Person[0] = " + Person[0]);
-        System.out.println("Person[1] = " + Person[1]);
-        System.out.println("Person[2] = " + Person[2]);
+        System.out.println("Person[0] = " + people[0].getName());
+        System.out.println("Person[1] = " + people[1].getName());
+        System.out.println("Person[2] = " + people[2].getName());
 
-        for (String People : Person) {
-            System.out.printf("%s is the name called%n", People);
+        for (Person person : people) {
+            System.out.printf("%s is the name called%n", person.getName());
         }
 
-//        Create a static method named addPerson. It should accept an array of Person objects, as well as a single person object to add to the passed array. It should return an array whose length is 1 greater than the passed array, with the passed person object at the end of the array.
 
-        String[] addPerson = Arrays.copyOf(Person, Person.length + 1);
-        System.out.println("Person.length = " + Person.length);
+
+        Person[] addPerson = Arrays.copyOf(people, people.length + 1);
+        System.out.println("Person.length = " + people.length);
         System.out.println("addPerson.length = " + addPerson.length);
 
-        addPerson[addPerson.length - 1] = "Andrew";
-        for(String peoplePlusOne : addPerson){
-            System.out.println(peoplePlusOne);
+        addPerson[addPerson.length - 1] = new Person("Andrew");
+        for(Person peoplePlusOne : addPerson){
+            System.out.println(peoplePlusOne.getName());
         }
 
 
     }
-
+//        Create a static method named addPerson. It should accept an array of Person objects, as well as a single person object to add to the passed array. It should return an array whose length is 1 greater than the passed array, with the passed person object at the end of the array.
 }

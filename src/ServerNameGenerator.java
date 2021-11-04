@@ -13,13 +13,13 @@ public class ServerNameGenerator {
     public static String[] nouns = {"Dog", "Cat", "Bear", "Lemur", "Goat", "Mouse", "Cow", "Monkey", "Horse", "Shark"};
 
     //Random number generator method:
-    public static String[] randomSet(String [] randWords) {
+    public static String randomSet(String[] randWords) {
         int randomGenerator = (int) Math.floor(Math.random() * 10);
-        return randWords;
+        return randWords[randomGenerator];
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(randomSet(adjectives)) + "-" + Arrays.toString(randomSet(nouns)));
+        System.out.println(randomSet(adjectives) + "-" + randomSet(nouns));
     }
 
 }

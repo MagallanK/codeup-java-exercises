@@ -103,7 +103,7 @@ public class MathOperations {
 //        }
 //        return userNum;
 //    }
-    //End of Exercise 3:
+    //End of Exercise 2 & 3:
 
     //Exercise 4:
     // void method is for interacting with user
@@ -138,5 +138,7 @@ public class MathOperations {
 //        System.out.printf("You rolled a %d and a %d \n", roll1, roll2);
 //        return roll1 + roll2;
 //    }
+    //End of Exercise 4
 
+    //Exercise 5:
 }
