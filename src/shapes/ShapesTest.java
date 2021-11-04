@@ -13,9 +13,9 @@ public class ShapesTest {
 
 //create a variable of the type Rectangle named box2 and assign it a new instance of the shapes.Square class that has a side value of 5.
 //verify that the getPerimeter and getArea methods return 20 and 25, respectively.
-//        Rectangle box2 = new shapes.Square(5,5);
-//        System.out.println("box2.getPerimeter() = " + box2.getPerimeter());
-//        System.out.println("box2.getArea() = " + box2.getArea());
+        Rectangle box2 = new shapes.Square(5);
+        System.out.println("box2.getPerimeter() = " + box2.getPerimeter());
+        System.out.println("box2.getArea() = " + box2.getArea());
 //In the shapes.Square class, override the getArea and getPerimeter methods with the following definitions for a square
 
     }
