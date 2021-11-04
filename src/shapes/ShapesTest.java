@@ -9,12 +9,12 @@ public class ShapesTest {
         //Test your code by creating instances of both Square and Rectangle and assigning them to myShape so you can display the shape's area and perimeter.
 
         Measurable myShape = new Rectangle(5,4);
-        System.out.println("myShape.getPerimeter() = " + myShape.getPerimeter());
-        System.out.println("myShape.getArea() = " + myShape.getArea());
+        System.out.println("myShape.getPerimeter() Rectangle = " + myShape.getPerimeter());
+        System.out.println("myShape.getArea() Rectangle = " + myShape.getArea());
 
-        Measurable myShape2 = new Square(5);
-        System.out.println("myShape2.getPerimeter() = " + myShape2.getPerimeter());
-        System.out.println("myShape2.getArea() = " + myShape2.getArea());
+        myShape = new Square(5);
+        System.out.println("myShape2.getPerimeter() Square = " + myShape.getPerimeter());
+        System.out.println("myShape2.getArea() Square = " + myShape.getArea());
 
         //--------------------------------------------------------------------------------------------
         //Test your code by creating a new class, shapes.ShapesTest (also inside of shapes) with a main method. Inside the main method,
