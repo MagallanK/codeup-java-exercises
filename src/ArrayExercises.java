@@ -29,7 +29,6 @@ public class ArrayExercises {
         }
 
 
-
         Person[] addPerson = Arrays.copyOf(people, people.length + 1);
         System.out.println("Person.length = " + people.length);
         System.out.println("addPerson.length = " + addPerson.length);

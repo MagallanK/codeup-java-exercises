@@ -139,6 +139,4 @@ public class MathOperations {
 //        return roll1 + roll2;
 //    }
     //End of Exercise 4
-
-    //Exercise 5:
 }
