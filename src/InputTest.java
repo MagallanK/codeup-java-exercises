@@ -14,16 +14,16 @@ public class InputTest {
 //        boolean userBool = input.yesNo();
 //        System.out.println("The result is: " + userBool);
 //
-//        System.out.println("Enter a number: ");
-//        int userInt = input.getInt();
-//        System.out.println("userInt = " + userInt);
+        System.out.println("Enter a number: ");
+        int userInt = input.getInt();
+        System.out.println("userInt = " + userInt);
 //
 //        int userInput = input.getInt(0, 20);
 //        System.out.println("userInput = " + userInput);
 
-//        System.out.println("Please enter a decimal number:");
-//        double userDouble = input.getDouble();
-//        System.out.println("userDouble = " + userDouble);
+        System.out.println("Please enter a decimal number:");
+        double userDouble = input.getDouble();
+        System.out.println("userDouble = " + userDouble);
 
 //        double userDouble2 = input.getDouble(0, 50);
 //        System.out.println("userDouble2 = " + userDouble2);
